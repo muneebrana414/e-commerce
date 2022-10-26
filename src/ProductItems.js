@@ -12,33 +12,33 @@ function ProductItems(props){
     const product =[
         {
             img: product_01,
-            title: 'Tittle',
-            price: 'Price'
+            title: 'Tittle 01',
+            price: '$ 4.50'
         },
         {
             img: product_02,
-            title: 'Tittle',
-            price: 'Price'
+            title: 'Tittle 01',
+            price: '$ 3.75'
         },
         {
             img: product_03,
-            title: 'Tittle',
-            price: 'Price'
+            title: 'Tittle 03',
+            price: '$ 6.00'
         },
         {
             img: product_04,
-            title: 'Tittle',
-            price: 'Price'
+            title: 'Tittle 04',
+            price: '$ 1.25'
         },
         {
             img: product_05,
-            title: 'Tittle',
-            price: 'Price'
+            title: 'Tittle 05',
+            price: '$ 2.75'
         },
         {
             img: product_06,
-            title: 'Tittle',
-            price: 'Price'
+            title: 'Tittle 06',
+            price: '$ 2.00'
         }
 
     ]

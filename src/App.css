@@ -42,6 +42,8 @@
   color: white;
   padding: 30px;
   border-radius: 10px;
+  top: 15vh;
+  right: 3.6vw;
   position: absolute;
 }
 .nav{
@@ -71,6 +73,7 @@
   color: #eee;
   margin: 0px 20px;
   padding: 10px;
+  border-bottom: 2px solid transparent;
   
 }
 .nav-list>li:hover{
@@ -257,7 +260,6 @@ button:hover{
 
 .our-product{
   background-image: url(./Images/products_heading.jpg);
-  text-transform: uppercase;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -271,6 +273,7 @@ button:hover{
   justify-content: center;
   align-items: center;
   padding-top: 100px;
+  text-transform: uppercase;
 }
 .product-heading>h4{
   margin: 10px;
@@ -281,9 +284,9 @@ button:hover{
 }
 .about-us{
   background-image: url(./Images/about_heading.jpg);
-  text-transform: uppercase;
+  
   background-position: center;
-  background-size: cover;
+  background-size: auto;
   background-repeat: no-repeat;
   min-height: 60vh;
   color: white;

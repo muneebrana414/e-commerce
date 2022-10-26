@@ -36,22 +36,22 @@ function Contact(){
                             setMessage(mes => [...mes, [name,email,subject,des]])
                             e.preventDefault()}}>
                             <fieldset>
-                                <input type='text' placeholder='Full Name' value={name} onChange={(e) => {
+                                <input style={{paddingLeft: '8px',borderRadius: '6px'}} type='text' placeholder='Full Name' value={name} onChange={(e) => {
                                     setName(e.target.value)
                                 }} required/>
                             </fieldset>
                             <fieldset>
-                                <input  type='text' placeholder='Enter Your Email' value={email} onChange={(e) => {
+                                <input style={{paddingLeft: '8px',borderRadius: '6px'}}  type='text' placeholder='Enter Your Email' value={email} onChange={(e) => {
                                     setEmail(e.target.value)
                                 }} required/>
                             </fieldset>
                             <fieldset>
-                                <input type='text' placeholder='Subject' value={subject} onChange={(e) => {
+                                <input style={{paddingLeft: '8px',borderRadius: '6px'}} type='text' placeholder='Subject' value={subject} onChange={(e) => {
                                     setSubject(e.target.value)
                                 }} required/>
                             </fieldset>
                             <fieldset>
-                                <textarea placeholder='Your Message' value={des} onChange={(e) => {
+                                <textarea style={{paddingLeft: '8px',borderRadius: '6px'}} placeholder='Your Message' value={des} onChange={(e) => {
                                     setDes(e.target.value)
                                 }} required/>
                             </fieldset>
